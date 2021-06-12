@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    color: white;
+}
+
+.digit {
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#btn-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn {
+    padding: 7px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px 10px;
+    color: black;
+    cursor: pointer;
+}
+
+#stop {
+    background-color: blueviolet;
+}
+
+#reset {
+    background-color: red;
+}
+
+#start {
+    background-color: greenyellow;
+}
